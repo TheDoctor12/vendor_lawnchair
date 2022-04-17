@@ -1,6 +1,6 @@
 android_app_import {
     name: "Lawnchair",
-    apk: "priv-app/Lawnchair/Lawnchair.apk",
+    apk: "Lawnchair.apk",
     presigned: true,
     dex_preopt: {
         enabled: false,
@@ -11,12 +11,12 @@ android_app_import {
 }
 
 android_app_import {
-        name: "Lawnicons",
-        apk: "Lawnicons.apk",
-        presigned: true,
-        dex_preopt: {
-                enabled: false,
-        },
-        product_specific: true,
-        optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
+    name: "Lawnicons",
+    apk: "Lawnicons.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+    optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
 }
